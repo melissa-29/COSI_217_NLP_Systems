@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NER Text Form</title>
+    <style>
+      textarea {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; font-family: sans-serif; color: blue">SpaCy NER Tool</h1>
+    <br>
+    <h3 style="text-align: center; font-family: sans-serif"> Type the text to be tagged in the box below:</h3>
+    <form action="/results" method="post" style="text-align: center;">
+      <textarea name="text" rows="5" cols="50"></textarea>
+      <br>
+      <input type="submit" value="Get Entities">
+    </form>
+  </body>
+</html>

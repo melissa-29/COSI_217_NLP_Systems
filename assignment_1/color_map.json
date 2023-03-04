@@ -1,0 +1,19 @@
+{
+    "PERSON": {"color": "#aa9cfc", "emoji": "🙋‍♂"},
+    "ORG": {"color": "#7aecec", "emoji": "💼"},
+    "GPE": {"color": "#feca74", "emoji": "🌍"},
+    "LOC": {"color": "#ff9561", "emoji": "🏔️"},
+    "FAC": {"color": "#ddd", "emoji": "🏢"},
+    "NORP": {"color": "#c887fb", "emoji": "🧑‍🤝‍🧑"},
+    "EVENT": {"color": "#ffeb80", "emoji": "🎉"},
+    "DATE": {"color": "#bfe1d9", "emoji": "📅"},
+    "TIME": {"color": "#bfe1d9", "emoji": "🕟"},
+    "CARDINAL": {"color": "#e4e7d2", "emoji": "🔢"},
+    "ORDINAL": {"color": "#e4e7d2", "emoji": "🥇"},
+    "QUANTITY": {"color": "#e4e7d2", "emoji": "💦"},
+    "PERCENT": {"color": "#e4e7d2", "emoji": "💯"},
+    "MONEY": {"color": "#e4e7d2", "emoji": "💵"},
+    "LANGUAGE": {"color": "#ff8197", "emoji": "🇱🇷"},
+    "PRODUCT": {"color": "#bfeeb7", "emoji": "🎁"},
+    "WORK_OF_ART": {"color": "#f0d0ff", "emoji": "🎨"}
+}
