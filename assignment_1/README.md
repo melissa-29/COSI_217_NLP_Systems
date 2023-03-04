@@ -4,7 +4,7 @@
 ### The required python version for assignment1 is python=3.11.
 
 ### A `requirements.txt` file is in the assignment1 folder that contains all of the necessary modules to install
-> NOTE: There are more modules listed in the `requirements.tx`t file than are necessary-- all of the modules from the environment are listed because I used `pip freeze` rather than just the assignment1 project modules being listed.
+> NOTE: There are more modules listed in the `requirements.txt` file than are necessary-- all of the modules from the environment are listed because I used `pip freeze` rather than just the assignment1 project modules being listed.
 
 ### RESTful API
 To start the RESTFul API, run the following code block in the terminal: `python RESTful_API.py`  
