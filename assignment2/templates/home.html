@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NER Text Form</title>
+  <style>
+    textarea {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: center; font-family: sans-serif">
+      <h1 style="color: blue">SpaCy NER Tool</h1>
+      <br>
+      <a href="/results">ner</a> | <a href="/entities_count?all_ents={{ all_ents }}">list</a>
+      <br>
+      <h3>Replace the text below (or use it) and click submit.</h3>
+      <form action="/results" method="post">
+        <textarea name="text" rows="7" cols="100">{{ default_text }}</textarea>
+        <br>
+        <input type="submit" value="Get Entities">
+      </form>
+  </div>
+</body>
+</html>

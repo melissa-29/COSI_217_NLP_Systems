@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+<div style="text-align:center; font-family:sans-serif">
+  <a href="/">home</a> |
+  <a href="/results?marked_ents={{ marked_ents }}">ner</a>
+  <br>
+  <br>
+    <h3>All entities seen so far:</h3>
+    <table style="margin-left:auto; margin-right:auto" cellpadding=5 cellspacing=0 border=1>
+      <tbody>
+        {% for row in all_ents %}
+          <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>
+</body>
+</html>

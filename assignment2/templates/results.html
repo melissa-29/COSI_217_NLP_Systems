@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NER Results</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+<div style="text-align: center; font-family: sans-serif">
+  <h1 style="color: blue">SpaCy NER Tool</h1>
+  <br>
+  <a href="/">home</a> | <a href="/entities_count?ents={{ ents }}&marked_ents={{ marked_ents }}">list</a>
+    <br>
+    <br>
+    {% if marked_ents == "None" or marked_ents is none%}
+      <p>No text submitted, please submit text in the home page and click the 'Get Entities' button to get NER results.</p>
+    {% else %}
+      <h3>Below is your text with tagged entities:</h3>
+        <div class="markup">
+          {{ marked_ents|safe }}
+        </div>
+    {% endif %}
+</div>
+</body>
+</html>
